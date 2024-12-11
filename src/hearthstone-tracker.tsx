@@ -20,25 +20,15 @@ import MatchHistory from './MatchHistory.tsx';
 
 // Firebase configuration (replace with your own config from Firebase Console)
 const firebaseConfig = {
-
   apiKey: "AIzaSyB3L2T6rXdeiz0UJZKjoXz75_gJBaKftR0",
-
   authDomain: "hsdecktracker-8cebf.firebaseapp.com",
-
   databaseURL: "https://hsdecktracker-8cebf-default-rtdb.europe-west1.firebasedatabase.app",
-
   projectId: "hsdecktracker-8cebf",
-
   storageBucket: "hsdecktracker-8cebf.firebasestorage.app",
-
   messagingSenderId: "420608176140",
-
   appId: "1:420608176140:web:0df493251a0f43af77fe29",
-
   measurementId: "G-5G4HNJ43BE"
-
 };
-
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
